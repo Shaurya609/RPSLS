@@ -1,8 +1,23 @@
-/* body{
-    background-image: url(https://media.glamour.com/photos/5cddbf8953c5e780a34a6545/master/w_2560%2Cc_limit/115005_0052b.jpg);
-    background-size: cover;
-} */
+body{
+    background-color: #a99f0c;
+}
 
 #desc{
     font-size: larger;
+}
+
+#rules{
+    font-size: larger;
+}
+
+#start{
+    font-size: 20px;
+}
+
+.visible{
+    visibility: visible;
+}
+
+.invisible{
+    visibility: hidden;
 }

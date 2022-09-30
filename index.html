@@ -20,12 +20,14 @@
 <body class="container-fluid">
     <h1 id="head" class="text-center">Rock, Paper, Scissors, Lizard, Spock</h1>
     <br>
-    <p id="desc" class="text-center">As explained by Sheldon Cooper in the famous series Big Bang Theory; <em>Rock, Paper, Scissors, Lizard,
+    <p id="desc" class="text-center">As explained by Sheldon Cooper in the famous series Big Bang Theory; <em>Rock,
+            Paper, Scissors, Lizard,
             Spock </em> is a extension of Rock, Paper Scissors.</p>
-    <p id="rules"  class="text-center">
+    <p id="rules" class="text-center">
         The rules of the game are: Paper beats Rock, Rock beats Scissors, Scissors cut the Paper, Spock vaporises
         Rock, Paper disapproves Spock,
-        Lizard poisons Spock, Rock crushes the Lizard, Spock smashes the Scissor, Scissor decapitates the Lizard, Lizard eats the Paper
+        Lizard poisons Spock, Rock crushes the Lizard, Spock smashes the Scissor, Scissor decapitates the Lizard, Lizard
+        eats the Paper
     </p>
     <br>
     <div class="row">
@@ -42,10 +44,24 @@
             <img id="p2" class="mx-auto d-block" src="images/rock.png" alt="">
         </div>
     </div>
-    <button id="start" class="mx-auto d-block">Press This Button To Start!</button>
+    <button id="start" class="mx-auto d-block btn btn-outline-success">Press This Button or Any Key To Start!</button>
+    <br>
     <h2 class="result text-center">
-
     </h2>
+    <table class="table table-bordered w-50 mx-auto text-center">
+        <tr>
+            <th>Player</th>
+            <th>Score</th>
+        </tr>
+        <tr>
+            <td>Player 1</td>
+            <td id="p1score">0</td>
+        </tr>
+        <tr>
+            <td>Player 2</td>
+            <td id="p2score">0</td>
+        </tr>
+    </table>
     <script src="index.js"></script>
 </body>
 
